@@ -6,9 +6,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.webkit.WebView
-import android.widget.Button
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 
 class NextActivity : AppCompatActivity() {
     private lateinit var birth: TextView
@@ -18,7 +16,7 @@ class NextActivity : AppCompatActivity() {
 
     private lateinit var confirm: Button
 
-    private lateinit var menu: Menu
+
 
 
 

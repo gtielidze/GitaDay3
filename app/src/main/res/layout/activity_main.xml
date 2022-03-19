@@ -25,8 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:text="@string/select"
-            />
+            android:text="@string/select" />
 
     </LinearLayout>
 
@@ -34,9 +33,9 @@
         android:id="@+id/birthDayField"
         android:layout_width="match_parent"
         android:layout_height="30dp"
+        android:layout_marginBottom="20dp"
         android:gravity="center"
-        android:layout_marginBottom="30dp"
-        android:hint="@string/day_of_birthday"/>
+        android:hint="@string/day_of_birthday" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -54,8 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:text="@string/select"
-            />
+            android:text="@string/select" />
 
     </LinearLayout>
 
@@ -63,35 +61,72 @@
         android:id="@+id/torField"
         android:layout_width="match_parent"
         android:layout_height="30dp"
+        android:layout_marginBottom="20dp"
         android:gravity="center"
-        android:layout_marginBottom="30dp"
-        android:hint="@string/time_of_registration"/>
+        android:hint="@string/time_of_registration" />
+
+    <TextView
+        android:id="@+id/qualificationTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qualification" />
+
+    <Spinner
+        android:id="@+id/qualificationSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/genderTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender" />
+
+    <RadioGroup
+        android:id="@+id/genderRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/checkedMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/checkedFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female" />
+    </RadioGroup>
 
     <EditText
         android:id="@+id/nameTxt"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:ems="10"
-        android:background="@color/gray"
+        android:layout_height="48dp"
         android:layout_marginBottom="30dp"
-        android:inputType="textPersonName"
-        android:hint="@string/name" />
+        android:background="@color/gray"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/numTxt"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:ems="10"
-        android:background="@color/gray"
+        android:layout_height="48dp"
         android:layout_marginBottom="25dp"
-        android:inputType="textPersonName"
-        android:hint="@string/mobile_number" />
+        android:background="@color/gray"
+        android:ems="10"
+        android:hint="@string/mobile_number"
+        android:inputType="textPersonName" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="10dp"
         android:text="@string/agree" />
 
     <Button

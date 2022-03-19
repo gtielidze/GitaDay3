@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/gio/Desktop/Gitaday3/app/src/main/res/layout/activity_list_view.xml" value="0.33541666666666664" />
         <entry key="..\:/Users/gio/Desktop/Gitaday3/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/gio/Desktop/Gitaday3/app/src/main/res/layout/activity_next.xml" value="0.20185185185185187" />
         <entry key="..\:/Users/gio/Desktop/Gitaday3/app/src/main/res/layout/activity_web_view.xml" value="0.11614583333333334" />
         <entry key="..\:/Users/gio/Desktop/Gitaday3/app/src/main/res/layout/dialog.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/gio/Desktop/Gitaday3/app/src/main/res/layout/navigate.xml" value="0.33541666666666664" />
         <entry key="..\:/Users/gio/Desktop/Gitaday3/app/src/main/res/layout/webview.xml" value="0.22962962962962963" />
         <entry key="..\:/Users/gio/Desktop/Gitaday3/app/src/main/res/menu/menu.xml" value="0.22962962962962963" />
       </map>

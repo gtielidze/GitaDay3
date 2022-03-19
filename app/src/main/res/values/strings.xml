@@ -24,4 +24,20 @@
     <string name="confirm">Confirm</string>
     <string name="about">about</string>
     <string name="exit">exit</string>
+    <string name="qualification">Qualification</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="navigate">navigate</string>
+
+    <string-array name="Qualification">
+        <item>none</item>
+        <item>1 years</item>
+        <item>2 years</item>
+        <item>2–5 years</item>
+        <item>5–15 years</item>
+        <item>15–30 years</item>
+        <item>30 more</item>
+    </string-array>
+
 </resources>

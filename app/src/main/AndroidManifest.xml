@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GitaDay3">
         <activity
+            android:name=".EmptyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".WebViewActivity"
             android:exported="false" />
         <activity
